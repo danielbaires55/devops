@@ -1,5 +1,4 @@
-const { formatLower } = require('./lib/formatters');
-
+import { formatLower } from './lib/formatters.js';
 const testString = "   Hello World!   ";
 const formattedString = formatLower(testString);
 
