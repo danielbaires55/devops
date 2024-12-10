@@ -9,8 +9,8 @@
 // Original: "   Hello World!   "
 // Formatted: "hello world!"
 
-function sum(a, b) {
-    return a + b;
+function dif(a, b) {
+    return a - b;
 }
 
-console.log(sum(6, 19));
+console.log(dif(25, 18));
