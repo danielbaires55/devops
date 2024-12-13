@@ -1,3 +1,4 @@
-function startAdventure(name) {
-    return `Benvenuto nell'avventura, ${name.toUpperCase()}!`;
+function explore(direction) {
+    direction = direction.toLowerCase();
+    return `Esplori verso ${direction}`;
 }
