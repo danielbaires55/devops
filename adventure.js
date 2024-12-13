@@ -1,4 +1,8 @@
-function explore(direction) {
-    direction = direction.toLowerCase();
-    return `Esplori verso ${direction}`;
+/**
+ * Inizia un'avventura per un personaggio specifico.
+ * @param {string} name - Nome del personaggio.
+ * @returns {string} Messaggio di benvenuto personalizzato.
+ */
+function startAdventure(name) {
+    return `Benvenuto nell'avventura, ${name.toUpperCase()}!`;
 }
