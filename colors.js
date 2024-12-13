@@ -12,3 +12,13 @@ function getColorHex(colorName) {
 
     return colors[colorName] || null;
 }
+
+/**
+ * Verifica se un colore è supportato.
+ * @param {string} colorName - Il nome del colore.
+ * @returns {boolean} - True se il colore è supportato, altrimenti false.
+ */
+function isColorValid(colorName) {
+    const supportedColors = ["red", "blue", "green"];
+    return supportedColors.includes(colorName);
+}
