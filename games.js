@@ -1,6 +1,5 @@
 // games.js
 function gamble(number) {
-    return number;
+    const random = Math.floor(Math.random() * 10) + 1;
+    return random;
 }
-
-module.exports = { gamble };
